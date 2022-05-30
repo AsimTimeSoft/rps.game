@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #282631;
+    color: white;
+    text-align: center;
+}
+#header{
+    background-color: white;
+    color: black;
+    padding: 20px ;
+}
+#header >h1{
+    text-align: center;
+    font-family: "Asap","san-serif";
+}
+.scoreboard{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    border: 1px solid white;
+    margin: 12px auto;
+    width: 120px;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    font-family: "Asap","san-serif";
+}
+#computer-label{
+    font-size: 12px;
+    position:absolute;
+    top: 40px;
+    left: -20px;
+    padding: 2px 2px;
+    background-color:#d95256;
+}
+#user-label{
+    padding: 2px 2px;
+    font-size: 12px;
+    top: 40px;
+    position:absolute;
+    margin-left:110px ;
+    margin-bottom:50px;
+    background-color:#d95256;
+}
+.result_div{
+    font-size: 40px;
+    font-family: Asap,sans-serif;
+    text-align: center;
+    padding-bottom:20px; 
+}
+.movements-list{
+    padding-top: 10px;
+}
+.movements-list >div{
+    margin-left: 10px;
+    display: inline-block;
+}
+.movements-list >div>img{
+    border-radius: 50%;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    transition: all 0.2s ease;
+}
+.movements-list >div>img:hover{
+    cursor:pointer;
+}
+#command{
+    padding-top: 20px;
+    font-family: "Asap","san-serif";
+    text-align: center;
+    font-size: 20px;
+}
+
+.green-glow{
+    border: 4px solid rgb(42, 177, 42);
+    box-shadow: 0 0 10px rgb(8, 114, 8);
+    border-radius:50%;
+}
+.red-glow{
+    border: 4px solid rgb(209, 17, 17);
+    box-shadow: 0 0 10px rgb(129, 11, 11);
+    border-radius:50%;
+}
+.grey-glow{
+    border: 4px solid rgb(146, 148, 146);
+    box-shadow: 0 0 10px rgb(72, 73, 73);
+    border-radius:50%;
+}
+
